@@ -1,21 +1,17 @@
 # HELLO THIS IS POLOTIFOLIO OF SAMUEL UWAYO
 
-
 ## STACKS
 
 ---
 
-** - appwrite **
-** - php **
-** - mysql **
-** - tailwind css **
+* php
 
+* html
 
+* tailwind css
 
+* appwrite
 
-####AUTHOR
+AUTHOR
 
 ` Samuel UWAYO `
-
-
-      
