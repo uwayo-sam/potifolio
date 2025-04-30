@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="p-0 m-0 w-[100vw] h-[100vh] bg-slate-950">
+<body class="p-0 m-0 w-[100vw]  h-[100vh] bg-slate-950">
 
 <h1 class=" absolute left-0 text-4xl ml-4 mt-4 font-extrabold"><a href="../">sam</a></h1>
 
@@ -28,7 +28,7 @@
         
         <div class="flex flex-col justify-center items-centers gap-5 right-10 ml-[200px]">
             <h1 class="text-white font-extrabold text-xl text-center">SIGN UP</h1>
-            <form action="" method="post" class="flex flex-col gap-3">
+            <form action="../controllers/signUp.php" method="post" class="flex flex-col gap-3">
               <input type="text" name="name" placeholder="please enter your name" class="px-6 outline-none py-3 rounded-lg border border-white/30 bg-black/30 backdrop-blur-sm hover:bg-black/50" required>
               <input type="email" name="email" placeholder="please enter your email" class="px-6 outline-none py-3 rounded-lg border border-white/30 bg-black/30 backdrop-blur-sm hover:bg-black/50" required>
               <input type="password" name="password" placeholder="please enter your password" class="px-6 outline-none py-3 rounded-lg border border-white/30 bg-black/30 backdrop-blur-sm hover:bg-black/50" required>
