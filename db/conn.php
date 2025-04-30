@@ -1,8 +1,19 @@
 <?php
-$conn = mysqli_connect("locahost","root","","potifolio");
+// require __DIR__ . '../vendor/autoload.php';
 
-if (mysqli_connect_error()) {
-    die("db connection failed". mysqli_connect_error());
+// $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+// $dotenv->load();
+
+// Access variables
+$dbHost = "localhost";
+$dbName = "porotifolio";
+$dbUser = "root";
+$dbPass = "";
+
+
+//create connection 
+
+$conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
+if (!$conn) {
+  die('db connectio failed'. mysqli_connect_error());
 }
-
-

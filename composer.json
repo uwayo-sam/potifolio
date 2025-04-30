@@ -12,6 +12,7 @@
         }
     ],
     "require": {
-        "appwrite/appwrite": "^14.0"
+        "appwrite/appwrite": "^14.0",
+        "vlucas/phpdotenv": "^5.6"
     }
 }
