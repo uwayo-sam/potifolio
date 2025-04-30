@@ -1,0 +1,17 @@
+{
+    "name": "samuel/portfolio",
+    "autoload": {
+        "psr-4": {
+            "Samuel\\Portfolio\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "samueluwayo",
+            "email": "samueluwayo17@gmail.com"
+        }
+    ],
+    "require": {
+        "appwrite/appwrite": "^14.0"
+    }
+}
